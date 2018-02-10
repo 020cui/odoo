@@ -16927,7 +16927,7 @@ msgstr "开始配置"
 #: model:ir.ui.view,arch_db:base.view_partner_form
 #: model:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "State"
-msgstr "状态"
+msgstr "省/直辖市"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state_code
@@ -16942,7 +16942,7 @@ msgstr "州/省名称"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state_ids
 msgid "States"
-msgstr "状态"
+msgstr "省/直辖市"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_install_state
