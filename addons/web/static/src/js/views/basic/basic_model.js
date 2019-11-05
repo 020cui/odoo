@@ -4323,7 +4323,8 @@ var BasicModel = AbstractModel.extend({
     _reload: function (id, options) {
         options = options || {};
         var element = this.localData[id];
-
+        _.extend(element.context, options.context)
+        
         if (element.type === 'record') {
             if (!options.currentId && (('currentId' in options) || this.isNew(id))) {
                 var params = {
